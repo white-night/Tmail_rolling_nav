@@ -2,13 +2,13 @@
 1.
 <p>标准盒子模型边框包含padding和width，当width固定时，若改变padding则border大小跟随变化，width不变
 。当width不固定而父元素有固定宽度时，改变padding，border大小不变
-                #menu {
+         <code> #menu {
                 position: fixed;
                 top: 100px;
                 left: 50%;
                 margin-left: 400px;
                 width: 50px;
-                }//让menu紧挨居中元素右侧；
+                }//让menu紧挨居中元素右侧；</code>
 </p>
 2.
 <p>scrollTop:scrollTop() 方法返回或设置匹配元素的滚动条的垂直位置。
