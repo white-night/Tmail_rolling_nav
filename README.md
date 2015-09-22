@@ -8,6 +8,7 @@
             margin-left: 400px;
             width: 50px;
         }//让menu紧挨居中元素右侧；
+        <br/>
 2.scrollTop:scrollTop() 方法返回或设置匹配元素的滚动条的垂直位置。
 
 scroll top offset 指的是滚动条相对于其顶部的偏移。
@@ -15,6 +16,7 @@ scroll top offset 指的是滚动条相对于其顶部的偏移。
             $(selector).scrollTop(offset)
 
 如果该方法未设置参数，则返回以像素计的相对滚动条顶部的偏移。
+<br/>
 3.offset() 方法返回或设置匹配元素相对于文档的偏移（位置）。
 语法
             $(selector).offset(function(index,oldoffset))
@@ -28,6 +30,9 @@ scroll top offset 指的是滚动条相对于其顶部的偏移。
 </table>
 可能的值：值对，比如 {top:100,left:0};
           带有 top 和 left 属性的对象.
+          <br/>
+4.
+             $('a[href='+currentId+']')//注意写法
 
     
 
