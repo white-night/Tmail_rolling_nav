@@ -2,14 +2,14 @@
 1.
 <p>标准盒子模型边框包含padding和width，当width固定时，若改变padding则border大小跟随变化，width不变
 。当width不固定而父元素有固定宽度时，改变padding，border大小不变
-```css
-#menu {
+```
+#menu{
 position: fixed;
 top: 100px;
 left: 50%;
 margin-left: 400px;
 width: 50px;
-}//让menu紧挨居中元素右侧；
+} //让menu紧挨居中元素右侧；
 ```
 </p>
 2.
@@ -23,7 +23,7 @@ $(selector).scrollTop(offset)
 如果该方法未设置参数，则返回以像素计的相对滚动条顶部的偏移。
 </p>
 3.<p>offset() 方法返回或设置匹配元素相对于文档的偏移（位置）。
-<h3>语法</h3
+<h3>语法</h3>
 ```css
 $(selector).offset(function(index,oldoffset))
 ```
